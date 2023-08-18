@@ -1,0 +1,29 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  html {
+    font-family: "aneklatin";
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "aneklatin";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  url("/public/fonts/AnekLatin-Regular.ttf") format("truetype"),
+  url("/public/fonts/AnekLatin-Medium.ttf") format("truetype"),
+  url("/public/fonts/AnekLatin-Thin.ttf") format("truetype"),
+  url("/public/fonts/AnekLatin-SemiBold.ttf") format("truetype"),
+  url("/public/fonts/AnekLatin-Bold.ttf") format("truetype");
+}
