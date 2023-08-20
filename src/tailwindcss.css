@@ -21,9 +21,9 @@
   font-style: normal;
   font-weight: 400;
   src: 
-  url("/public/fonts/AnekLatin-Regular.ttf") format("truetype"),
-  url("/public/fonts/AnekLatin-Medium.ttf") format("truetype"),
-  url("/public/fonts/AnekLatin-Thin.ttf") format("truetype"),
-  url("/public/fonts/AnekLatin-SemiBold.ttf") format("truetype"),
-  url("/public/fonts/AnekLatin-Bold.ttf") format("truetype");
+  url("/fonts/AnekLatin-Regular.ttf") format("truetype"),
+  url("/fonts/AnekLatin-Medium.ttf") format("truetype"),
+  url("/fonts/AnekLatin-Thin.ttf") format("truetype"),
+  url("/fonts/AnekLatin-SemiBold.ttf") format("truetype"),
+  url("/fonts/AnekLatin-Bold.ttf") format("truetype");
 }

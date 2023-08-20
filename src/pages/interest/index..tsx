@@ -26,7 +26,7 @@ export default function Interest() {
   ];
   return (
     <>
-      <div className="text-center mb-[3rem]">
+      <div className="text-center my-[5rem]">
         <h1 className="text-4xl font-bold mb-[5rem]">Areas of my interest</h1>
         <Row gutter={[80, 80]} justify="center"  >
           {interestArr.map((curr, index) => (
