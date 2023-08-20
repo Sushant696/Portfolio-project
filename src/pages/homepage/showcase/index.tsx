@@ -2,7 +2,7 @@ import { StyledShowCase, StyledHeading, StyledImg } from "./styling";
 export default function ShowCase() {
   return (
     <>
-      <StyledShowCase className="flex justify-center items-center">
+      <StyledShowCase className="flex justify-center items-center mb-[2rem]">
         <div>
           <StyledHeading>
             <h1 className="text-[64px] text-[#DDD] font-bold">Sushant Babu Prasai</h1>
