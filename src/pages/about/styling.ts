@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomePageWrapper = styled("div")`
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
 `;
 
@@ -16,7 +16,7 @@ export const HomeWrapper = styled("div")`
 
 export const SushantImg = styled("div")`
   flex: 1;
-  padding: 3rem;
+  padding: 2rem;
   
   @media (max-width: 1024px) {
     display:flex;
@@ -32,7 +32,7 @@ export const StyledImg = styled("img")`
 `;
 
 export const StyledContent = styled("div")`
-  flex: 1.5;
+  flex: 1.6;
 `;
 export const StyledHeading = styled("h1")`
   font-size: 48px;
@@ -42,7 +42,7 @@ export const StyledHeading = styled("h1")`
   }
 `;
 export const StyledSubHeading = styled("h1")`
-  font-size: 22px;
+  font-size: 23px;
 
   @media (max-width: 1400px) {
     font-size: 20px;

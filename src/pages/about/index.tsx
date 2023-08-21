@@ -35,7 +35,7 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
-            <StyledImg alt="Problem loading my image , Will fix soon !!!"/>
+            <StyledImg/>
           </SushantImg>
         </HomeWrapper>
       </div>
