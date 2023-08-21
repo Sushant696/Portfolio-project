@@ -12,7 +12,7 @@ export default function About() {
   return (
     <HomePageWrapper className="p-[2rem]" id="about">
       <h1 className="text-center mb-8 font-bold text-[3.5rem]">About Me</h1>
-      <div className="flex  justify-center">
+      <div className="flex justify-center">
         <HomeWrapper className=" p-[1rem]">
           <StyledContent className="flex flex-col flex-none gap-[32px]">
             <StyledHeading className="  font-bold">I am Sushant Babu Prasai</StyledHeading>
@@ -35,7 +35,7 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
-            <StyledImg src="/src/assets/Images/sushant.jpg" alt="myimg" />
+            <StyledImg/>
           </SushantImg>
         </HomeWrapper>
       </div>

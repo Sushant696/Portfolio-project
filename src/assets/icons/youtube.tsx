@@ -3,8 +3,8 @@ export default function YoutubeIcon() {
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="100"
-        height="100"
+        width="110"
+        height="110"
         viewBox="5.368 13.434 53.9 37.855"
         id="youtube"
       >

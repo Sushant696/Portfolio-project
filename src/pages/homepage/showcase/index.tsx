@@ -1,16 +1,15 @@
-import { StyledShowCase, StyledHeading, StyledImg } from "./styling";
+import { StyledShowCase, StyledHeading ,StyledSubHeading } from "./styling";
 export default function ShowCase() {
   return (
     <>
       <StyledShowCase className="flex justify-center items-center mb-[2rem]">
         <div>
-          <StyledHeading>
-            <h1 className="text-[64px] text-[#DDD] font-bold">Sushant Babu Prasai</h1>
+          <StyledHeading  className=" text-[#DDD] font-bold" >
+            Sushant Babu Prasai
           </StyledHeading>
           <br />
-          <h1 className="font-semibold text-[#DDD] text-[36px] ">Student | Programmer | Learner | Dreamer</h1>
+          <StyledSubHeading className="font-semibold text-[#DDD] ">Student | Programmer | Learner | Dreamer</StyledSubHeading>
         </div>
-        <StyledImg>{/* image goes here */}</StyledImg>
       </StyledShowCase>
     </>
   );
