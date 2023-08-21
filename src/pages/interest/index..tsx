@@ -1,45 +1,47 @@
-import { Col, Row } from "antd";
-import { StyledCard, StyledHr } from "./styling";
+import {
+  StyledCard,
+  StyledHr,
+  InterestContainer,
+  InterestGrid,
+} from "./styling";
 export default function Interest() {
   const interestArr = [
     {
       title: `Web Development`,
       description: `I have been involved in web development 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores, inventore deleniti sit perferendis excepturi soluta provident error recusandae`,
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores`,
     },
     {
       title: `Technology`,
       description: `I have been involved in web development 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores, inventore deleniti sit perferendis excepturi soluta provident error recusandae`,
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores`,
     },
     {
       title: `Operating System`,
       description: `I have been involved in web development 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores, inventore deleniti sit perferendis excepturi soluta provident error recusandae`,
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores`,
     },
     {
       title: `Embedded Systems`,
       description: `I have been involved in web development 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores, inventore deleniti sit perferendis excepturi soluta provident error recusandae.,
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium similique itaque natus quam quisquam veritatis nostrum, minus in incidunt maiores.,
       `,
     },
   ];
   return (
     <>
-      <div className="text-center mb-[3rem]">
-        <h1 className="text-4xl font-bold mb-[5rem]">Areas of my interest</h1>
-        <Row gutter={[80, 80]} justify="center"  >
+      <InterestContainer id="interest" >
+        <h1 className="text-4xl font-bold mb-5">Areas of my interest</h1>
+        <InterestGrid>
           {interestArr.map((curr, index) => (
-            <Col span={9} key={index}>
-              <StyledCard className=" p-[1.5rem] ">
-                <h1 className="text-[32px] text-left font-medium mb-4">{curr.title}</h1>
-                <StyledHr />
-                <p className="text-[#333] text-left text-[26px]">{curr.description}</p>
-              </StyledCard>
-            </Col>
+            <StyledCard key={index} className=" p-[1.5rem]">
+              <h1 className="text-[32px] font-medium mb-4">{curr.title}</h1>
+              <StyledHr  className="mb-[1rem]"/>
+              <p className="text-[24px]">{curr.description}</p>
+            </StyledCard>
           ))}
-        </Row>
-      </div>
+        </InterestGrid>
+      </InterestContainer>
     </>
   );
 }
