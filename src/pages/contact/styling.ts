@@ -14,5 +14,5 @@ export const StyledLogo = styled("div")`
   padding: 2rem;
   align-items: center;
   margin: 1.2rem;
-  gap: 15%;
+  gap: 10%;
 `;

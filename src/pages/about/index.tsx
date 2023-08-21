@@ -3,18 +3,20 @@ import {
   StyledImg,
   StyledContent,
   SushantImg,
+  StyledHeading,
   HomeWrapper,
+  StyledSubHeading
 } from "./styling";
 
 export default function About() {
   return (
-    <HomePageWrapper className="p-[2rem]">
+    <HomePageWrapper className="p-[2rem]" id="about">
       <h1 className="text-center mb-8 font-bold text-[3.5rem]">About Me</h1>
       <div className="flex  justify-center">
         <HomeWrapper className=" p-[1rem]">
           <StyledContent className="flex flex-col flex-none gap-[32px]">
-            <h1 className="text-[56px]  font-bold">I am Sushant Babu Prasai</h1>
-            <h3 className="text-[#333] text-[24px] leading-8 font-medium  tracking-wide">
+            <StyledHeading className="  font-bold">I am Sushant Babu Prasai</StyledHeading>
+            <StyledSubHeading className="text-[#333]  leading-8 font-medium  tracking-wide">
               An 18-year-old web developer and dedicated tech enthusiast hailing
               from the picturesque town of Birtamode, Nepal. As a passionate
               computer science student, I am currently engrossed in crafting and
@@ -30,7 +32,7 @@ export default function About() {
               partnerships. Feel free to explore my upwork Profile, assess my
               skill set, or connect with me on LinkedIn - the beginning of a
               productive and inspiring journey could be just a click away.
-            </h3>
+            </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
             <StyledImg src="/src/assets/Images/sushant.jpg" alt="myimg" />
