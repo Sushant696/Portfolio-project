@@ -1,26 +1,40 @@
-import { Input } from "antd";
-import { StyledLinks,StyledFooter } from "./styling";
-export default function () {
+import SendIcon from "../../assets/icons/Send";
+import { StyledLinks, StyledFooter, StyledInput } from "./styling";
+
+export default function Footer () {
+  const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, sectionId: string) => {
+    event.preventDefault();
+
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const offset = section.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top: offset - 0, behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <div className="bg-[#eee]">
         <StyledFooter>
-          <div className=" my-[3rem]">
+          <div className=" my-[3rem] p-6">
             <div>
-            <h1>LOGO</h1>
+              <h1>LOGO</h1>
             </div>
             <h1 className="leading-[3rem]">Send me a messsage </h1>
-            <input
-              className="p-[1.5rem] w-[25rem] h-[6rem] my-4"
-              placeholder="A message for me"
-            />
+            <div className="flex">
+              <StyledInput
+                className="mr-2 my-4"
+                placeholder="A message for me" 
+              />
+              <SendIcon/>
+            </div>
           </div>
           <div className="flex gap-[5rem] justify-between my-[3rem] ">
             <div>
               <h1 className="font-bold">Quick Links</h1>
               <StyledLinks href="#">Home</StyledLinks>
-              <StyledLinks href="#about">About</StyledLinks>
-              <StyledLinks href="#interest">My interests</StyledLinks>
+              <StyledLinks href="#about" onClick={(e) => scrollToSection(e,"about")}>About</StyledLinks>
+              <StyledLinks href="#interest" onClick={(e)=>scrollToSection(e,"interest")}>My interests</StyledLinks>
               <StyledLinks>Blogs</StyledLinks>
             </div>
             <div>
@@ -31,10 +45,14 @@ export default function () {
             </div>
           </div>
         </StyledFooter>
-        <div className="text-center p-[2rem]">
+        <div className="text-center p-[.5rem]">
           <h1>&copy; Sushant Babu Prasai | 2023 | All right reserved</h1>
         </div>
       </div>
     </>
   );
 }
+
+/*
+
+*/

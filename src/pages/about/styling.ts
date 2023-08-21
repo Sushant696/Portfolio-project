@@ -8,6 +8,9 @@ export const HomePageWrapper = styled("div")`
 export const HomeWrapper = styled("div")`
   display: flex;
   align-items: center;
+  @media(max-width : 1236px) {
+    display:block;
+  }
 `;
 
 export const SushantImg = styled("div")`
@@ -21,7 +24,23 @@ export const StyledImg = styled("img")`
 
 
 export const StyledContent = styled("div")`
-  flex: 1.5;
+  flex: 1;
+`;
+export const StyledHeading = styled("h1")`
+  font-size:56px;
+
+@media(max-width : 1400px) {
+  font-size:36px;
+}
+`;
+export const StyledSubHeading = styled("h1")`
+  font-size:26px;
+
+@media(max-width : 1400px) {
+  font-size:24px;
+}
+
+
 `;
 
 
