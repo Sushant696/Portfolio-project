@@ -1,6 +1,7 @@
+import SushantPic from "../../assets/icons/sushant";
 import {
   HomePageWrapper,
-  StyledImg,
+  // StyledImg,
   StyledContent,
   SushantImg,
   StyledHeading,
@@ -35,10 +36,12 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
-            <StyledImg src="/src/assets/Images/sushant1.svg"/>
+            {/* <StyledImg src="/src/assets/Images/sushant.jpg"/> */}
+            <SushantPic />
           </SushantImg>
         </HomeWrapper>
       </div>
     </HomePageWrapper>
   );
 }
+// there is problem with the file path because the svg format is working properly but png and the jpg are not working so well how the fuck can by that ?? 
