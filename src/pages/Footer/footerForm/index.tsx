@@ -27,7 +27,7 @@ export const FooterForm = () => {
     // clear the input field
     setName("");
     setMessage("");
-    <h1>{alert("Your message has been delivered successfully")}</h1>
+    <h1>{prompt("Your message has been delivered successfully")}</h1>
   };
 
   // retriving the data stored  
