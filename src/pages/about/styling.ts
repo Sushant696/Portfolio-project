@@ -23,17 +23,17 @@ export const SushantImg = styled("div")`
     justify-content :center;
   }
 `;
-export const StyledImg = styled("img")`
-  background: url("/src/assets/Images/sushant.jpg") center/cover;
-  width:560px;
-  height :500px;
-  border-radius: 18px;
 
+export const StyledImg = styled("img")`
+  width:530px;
+  height :520px;
+  border-radius: 18px;
 `;
 
 export const StyledContent = styled("div")`
   flex: 1.6;
 `;
+
 export const StyledHeading = styled("h1")`
   font-size: 48px;
 

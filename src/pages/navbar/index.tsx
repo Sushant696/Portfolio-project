@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { StyledNav ,StyledLogo } from './styling';
+import { StyledNav} from './styling';
+import Logo from '../../assets/icons/Logo';
 
 export default function Navbar() {
   const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, sectionId: string) => {
@@ -17,7 +18,7 @@ export default function Navbar() {
     <StyledNav className="flex justify-between py-[.8rem] px-[1.5rem]">
       <div>
         <Link to="/">
-          <StyledLogo src="/src/assets/Images/mylogo1.png" alt="mylogo" />
+          <Logo/>
         </Link>
       </div>
       <div className="flex gap-[30px]">

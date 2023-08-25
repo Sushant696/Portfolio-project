@@ -6,6 +6,3 @@ overfolw-y:;scroll;
 scroll-behaviour :smooth;
 
 `
-export const StyledLogo = styled("img")`
-width:180px;
-`
