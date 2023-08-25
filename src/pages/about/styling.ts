@@ -18,20 +18,22 @@ export const SushantImg = styled("div")`
   flex: 1;
   padding: 2rem;
   
-  @media (max-width: 1024px) {
+  @media (max-width: 1124px) {
     display:flex;
     justify-content :center;
+ 
   }
 `;
 
 export const StyledImg = styled("img")`
-  width:530px;
+  width:550px;
   height :520px;
   border-radius: 18px;
+ 
 `;
 
 export const StyledContent = styled("div")`
-  flex: 1.6;
+  flex: 1;
 `;
 
 export const StyledHeading = styled("h1")`

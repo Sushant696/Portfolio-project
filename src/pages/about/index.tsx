@@ -35,7 +35,7 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
-            <StyledImg src="/src/assets/Images/sushant.jpg"/>
+            <StyledImg src="/src/assets/Images/sushant1.svg"/>
           </SushantImg>
         </HomeWrapper>
       </div>
