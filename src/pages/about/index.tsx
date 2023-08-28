@@ -6,7 +6,7 @@ import {
   SushantImg,
   StyledHeading,
   HomeWrapper,
-  StyledSubHeading
+  StyledSubHeading,
 } from "./styling";
 
 export default function About() {
@@ -16,7 +16,9 @@ export default function About() {
       <div className="flex justify-center">
         <HomeWrapper className=" p-[1rem]">
           <StyledContent className="flex flex-col flex-none gap-[32px]">
-            <StyledHeading className="  font-bold">I am Sushant Babu Prasai</StyledHeading>
+            <StyledHeading className="  font-bold">
+              I am Sushant Babu Prasai
+            </StyledHeading>
             <StyledSubHeading className="text-[#333]  leading-8 font-medium  tracking-wide">
               An 18-year-old web developer and dedicated tech enthusiast hailing
               from the picturesque town of Birtamode, Nepal. As a passionate
@@ -36,7 +38,7 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
-            <StyledImg src="/src/assets/sushant.png"/>
+            <StyledImg src="/src/assets/sushant2.jpg" />
             <SushantPic />
           </SushantImg>
         </HomeWrapper>
@@ -44,4 +46,4 @@ export default function About() {
     </HomePageWrapper>
   );
 }
-// there is problem with the file path because the svg format is working properly but png and the jpg are not working so well how the fuck can by that ?? 
+// there is problem with the file path because the svg format is working properly but png and the jpg are not working so well how the fuck can by that ??
