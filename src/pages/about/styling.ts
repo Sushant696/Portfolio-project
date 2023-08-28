@@ -15,7 +15,7 @@ export const HomeWrapper = styled("div")`
 `;
 
 export const SushantImg = styled("div")`
-  flex: 1;
+  flex: 1; 
   @media (max-width: 1124px) {
     display:flex;
     justify-content :center;

@@ -1,7 +1,7 @@
 import SushantPic from "../../assets/icons/sushant";
 import {
   HomePageWrapper,
-  // StyledImg,
+  StyledImg,
   StyledContent,
   SushantImg,
   StyledHeading,
@@ -36,7 +36,7 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex shrink">
-            {/* <StyledImg src="/src/assets/Images/sushant.jpg"/> */}
+            <StyledImg src="/src/assets/sushant.png"/>
             <SushantPic />
           </SushantImg>
         </HomeWrapper>
