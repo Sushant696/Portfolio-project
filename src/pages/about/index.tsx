@@ -11,10 +11,10 @@ import {
 
 export default function About() {
   return (
-    <HomePageWrapper className="p-[2rem]" id="about">
-      <h1 className="text-center mb-8 font-bold text-[3.5rem]">About Me</h1>
+    <HomePageWrapper className="p-[1rem]" id="about">
+      <h1 className="text-center mb-5 font-bold text-[3.5rem]">About Me</h1>
       <div className="flex justify-center">
-        <HomeWrapper className=" p-[1rem]">
+        <HomeWrapper className=" p-[1rem] max-w ">
           <StyledContent className="flex flex-col flex-none gap-[32px]">
             <StyledHeading className="  font-bold">
               I am Sushant Babu Prasai
@@ -47,3 +47,4 @@ export default function About() {
   );
 }
 // there is problem with the file path because the svg format is working properly but png and the jpg are not working so well how the fuck can by that ??
+// this is one thing but if the file path was mistake then how the image is loading in local host and not loading in actuall hosting with netlify.
