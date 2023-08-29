@@ -31,6 +31,9 @@ export default function Navbar() {
         <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>
           <h2 className="text-[#222] font-semibold">contact</h2>
         </a>
+        <a href="#contact" onClick={(e) => scrollToSection(e, 'skills')}>
+          <h2 className="text-[#222] font-semibold">Skills</h2>
+        </a>
       </div>
     </StyledNav>
   );

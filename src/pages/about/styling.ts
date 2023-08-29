@@ -8,29 +8,27 @@ export const HomePageWrapper = styled("div")`
 export const HomeWrapper = styled("div")`
   display: flex;
   align-items: center;
-  width:1200px;
   @media (max-width: 1024px) {
     display: block;
   }
 `;
 
 export const SushantImg = styled("div")`
-  flex: 1; 
+  flex: 0.8;
   @media (max-width: 1124px) {
-    display:flex;
-    justify-content :center;
- 
+    display: flex;
+    justify-content: center;
   }
 `;
 
 export const StyledImg = styled("img")`
-  width:550px;
-  height :520px;
+  width: 550px;
+  height: 520px;
   border-radius: 18px;
- 
 `;
 
 export const StyledContent = styled("div")`
+  text-align: left;
   flex: 1;
 `;
 
@@ -43,7 +41,6 @@ export const StyledHeading = styled("h1")`
 `;
 export const StyledSubHeading = styled("h1")`
   font-size: 23px;
-
   @media (max-width: 1400px) {
     font-size: 20px;
   }
