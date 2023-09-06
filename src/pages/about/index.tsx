@@ -14,7 +14,7 @@ export default function About() {
     <HomePageWrapper className="p-[1rem]" id="about">
       <h1 className="text-center mb-5 font-bold text-[3.5rem]">About Me</h1>
       <div className="flex justify-center">
-        <HomeWrapper className=" p-[1rem] max-w ">
+        <HomeWrapper className=" p-[1rem] max-w  flex  m-6">
           <StyledContent className="flex flex-col flex-none gap-[32px]">
             <StyledHeading className="  font-bold">
               I am Sushant Babu Prasai

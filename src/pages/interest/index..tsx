@@ -35,9 +35,9 @@ export default function Interest() {
         <InterestGrid>
           {interestArr.map((curr, index) => (
             <StyledCard key={index} className=" p-[1.5rem]">
-              <h1 className="text-[28px] font-medium mb-4">{curr.title}</h1>
+              <h1 className="text-[26px] font-medium mb-4">{curr.title}</h1>
               <StyledHr  className="mb-[.8rem]"/>
-              <p className="text-[21px]">{curr.description}</p>
+              <p className="text-[20px]">{curr.description}</p>
             </StyledCard>
           ))}
         </InterestGrid>

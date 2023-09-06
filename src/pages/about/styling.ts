@@ -6,8 +6,6 @@ export const HomePageWrapper = styled("div")`
 `;
 
 export const HomeWrapper = styled("div")`
-  display: flex;
-  align-items: center;
   @media (max-width: 1024px) {
     display: block;
   }
@@ -18,6 +16,7 @@ export const SushantImg = styled("div")`
   @media (max-width: 1124px) {
     display: flex;
     justify-content: center;
+    margin-top:2rem;
   }
 `;
 
@@ -29,7 +28,6 @@ export const StyledImg = styled("img")`
 
 export const StyledContent = styled("div")`
   text-align: left;
-  
   flex: 1.2;
 `;
 
