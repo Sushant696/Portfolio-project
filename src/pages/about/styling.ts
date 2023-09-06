@@ -14,7 +14,7 @@ export const HomeWrapper = styled("div")`
 `;
 
 export const SushantImg = styled("div")`
-  flex: 0.8;
+  flex: 1;
   @media (max-width: 1124px) {
     display: flex;
     justify-content: center;
@@ -29,7 +29,8 @@ export const StyledImg = styled("img")`
 
 export const StyledContent = styled("div")`
   text-align: left;
-  flex: 1;
+  
+  flex: 1.2;
 `;
 
 export const StyledHeading = styled("h1")`
@@ -37,6 +38,7 @@ export const StyledHeading = styled("h1")`
 
   @media (max-width: 1400px) {
     font-size: 36px;
+    text-align:center;
   }
 `;
 export const StyledSubHeading = styled("h1")`

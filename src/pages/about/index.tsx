@@ -19,7 +19,7 @@ export default function About() {
             <StyledHeading className="  font-bold">
               I am Sushant Babu Prasai
             </StyledHeading>
-            <StyledSubHeading className="text-[#333]  leading-8 font-medium  tracking-wide">
+            <StyledSubHeading className="text-[#333] mr-4 leading-8 font-medium  tracking-wide">
               An 18-year-old web developer and dedicated tech enthusiast hailing
               from the picturesque town of Birtamode, Nepal. As a passionate
               computer science student, I am currently engrossed in crafting and

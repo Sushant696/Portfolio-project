@@ -11,66 +11,65 @@ export const FooterForm = () => {
   const [name, setName] = useState<string>("");
   const [messsage, setMessage] = useState<string>("");
 
-  const handleSumbit = (
-    event: React.FormEvent<HTMLFormElement>
-  ) => {
+  const handleSumbit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault(); //preventing form from submitting and reloading the page
-    
-    // object to store user's  name as (key) and message as value  
+
+    // object to store user's  name as (key) and message as value
     const data = {
-      [name] : messsage
+      [name]: messsage,
     };
 
-    //  convert object to json and store 
-    localStorage.setItem("userData",JSON.stringify(data));
+    //  convert object to json and store
+    localStorage.setItem("userData", JSON.stringify(data));
 
     // clear the input field
     setName("");
     setMessage("");
-    <h1>{prompt("Your message has been delivered successfully")}</h1>
+    <h1>{prompt("Your message has been delivered successfully")}</h1>;
   };
 
-  // retriving the data stored  
+  // retriving the data stored
   // const storedData : string | null = localStorage.getItem('userData');
   // const parsedData: { [key: string]: string } | null = storedData ? JSON.parse(storedData) : null;
 
-
   return (
-    <div className=" my-[3rem]">
+    <>
+      <div className=" my-[3rem]">
       <div className="mb-[1rem]">
         <a href="#">
         <Logo/>
         </a>
       </div>
-      <form
-        onSubmit={(event) => {
-          handleSumbit(event)
-        }}
-      >
-        <label htmlFor="name">Enter your name</label>
-        <StyledInput
-          type="text"
-          id="name"
-          value={name}
-          onChange={(event) => {
-            setName(event.target.value);
+        <form
+          onSubmit={(event) => {
+            handleSumbit(event);
           }}
-        />
-        <label htmlFor="message" className="leading-[3rem]">
-          A Message For me
-        </label>
-        <div className="flex">
-          <StyledTextArea
-            id="message"
-            value={messsage}
+        >
+          <label htmlFor="name">Enter your name</label>
+          <StyledInput
+            type="text"
+            id="name"
+            value={name}
             onChange={(event) => {
-              setMessage(event.target.value);
+              setName(event.target.value);
             }}
           />
-        </div>
-        <StyledButton type="submit">Submit</StyledButton>
-      </form>
-    </div>
+          <label htmlFor="message" className="leading-[3rem]">
+            A Message For me
+          </label>
+          <div className="flex">
+            <StyledTextArea
+              id="message"
+              value={messsage}
+              onChange={(event) => {
+                setMessage(event.target.value);
+              }}
+            />
+          </div>
+          <StyledButton type="submit">Submit</StyledButton>
+        </form>
+      </div>
+    </>
   );
 };
 
