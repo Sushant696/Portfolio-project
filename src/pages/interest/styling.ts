@@ -9,7 +9,7 @@ export const InterestContainer = styled.div`
 export const InterestGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 36px;
+  gap: 28px;
   justify-items: center;
   margin: 0 auto;
   max-width: 1024px;
@@ -21,9 +21,8 @@ export const InterestGrid = styled.div`
 export const StyledCard = styled(Card)`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  padding: 1rem;
   margin:1rem;
-  max-width: 480px;
+  max-width: 460px;
   width: 100%;
   text-align: left;
 `;

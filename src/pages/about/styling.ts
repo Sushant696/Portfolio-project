@@ -13,10 +13,11 @@ export const HomeWrapper = styled("div")`
 
 export const SushantImg = styled("div")`
   flex: 1;
-  @media (max-width: 1124px) {
+  @media (max-width: 1224px) {
     display: flex;
     justify-content: center;
     margin-top:2rem;
+    max-width:1200px;
   }
 `;
 
@@ -24,6 +25,7 @@ export const StyledImg = styled("img")`
   width: 550px;
   height: 520px;
   border-radius: 18px;
+  width:100%;
 `;
 
 export const StyledContent = styled("div")`
@@ -32,16 +34,16 @@ export const StyledContent = styled("div")`
 `;
 
 export const StyledHeading = styled("h1")`
-  font-size: 48px;
-
-  @media (max-width: 1400px) {
+  font-size: 42px;
+  text-align:left;
+  @media (max-width: 1200px) {
     font-size: 36px;
     text-align:center;
   }
 `;
 export const StyledSubHeading = styled("h1")`
-  font-size: 23px;
-  @media (max-width: 1400px) {
+  font-size: 22px;
+  @media (max-width: 1280px) {
     font-size: 20px;
   }
 `;
