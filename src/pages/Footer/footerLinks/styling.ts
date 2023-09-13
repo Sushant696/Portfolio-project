@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledFooter = styled('div')`
@@ -8,7 +8,7 @@ background:#eee;
 padding:3rem;
 flex-wrap:wrap;
 `
-export const StyledLinks = styled("a")`
+export const StyledLinks = styled(Link)`
 display:block;
 line-height:3rem;
 font-size:24px;

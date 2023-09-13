@@ -23,26 +23,26 @@ export default function Footer() {
           <div className="flex gap-[5rem] my-[3rem] ">
             <div>
               <h1 className="font-bold">Quick Links</h1>
-              <StyledLinks href="#">Home</StyledLinks>
+              <StyledLinks to="#">Home</StyledLinks>
               <StyledLinks
-                href="#about"
+                to="#about"
                 onClick={(e) => scrollToSection(e, "about")}
               >
                 About
               </StyledLinks>
               <StyledLinks
-                href="#interest"
+                to="#interest"
                 onClick={(e) => scrollToSection(e, "interest")}
               >
                 My interests
               </StyledLinks>
-              <StyledLinks>Blogs</StyledLinks>
+              <StyledLinks to="">Blogs</StyledLinks>
             </div>
             <div>
               <h1 className="font-bold">Support</h1>
-              <StyledLinks href="#">Terms of Sercives</StyledLinks>
-              <StyledLinks href="#">Community Guidelines</StyledLinks>
-              <StyledLinks href="#">Privacy Policy</StyledLinks>
+              <StyledLinks to="#">Terms of Sercives</StyledLinks>
+              <StyledLinks to="#">Community Guidelines</StyledLinks>
+              <StyledLinks to="#">Privacy Policy</StyledLinks>
             </div>
           </div>
         </StyledFooter>

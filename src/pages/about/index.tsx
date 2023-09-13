@@ -1,6 +1,5 @@
 import SushantPic from "../../assets/icons/sushant";
 import {
-  HomePageWrapper,
   StyledImg,
   StyledContent,
   SushantImg,
@@ -11,15 +10,15 @@ import {
 
 export default function About() {
   return (
-    <HomePageWrapper className="p-[1rem]" id="about">
-      <h1 className="text-center mb-5 font-bold text-[3.5rem]">About Me</h1>
+    <div id="about" className="p-4">
+      {/* <h1 className="text-center mb-12 font-bold text-[3.5rem]">About Me</h1> */}
       <div className="flex justify-center">
-        <HomeWrapper className=" p-[1rem] max-w  flex  m-6">
+        <HomeWrapper className="max-w  flex ">
           <StyledContent className="flex flex-col flex-none gap-[32px]">
-            <StyledHeading className="  font-bold">
+            <StyledHeading className="font-bold mt-4">
               I am Sushant Babu Prasai
             </StyledHeading>
-            <StyledSubHeading className="text-[#333] mr-4 leading-8 font-medium  tracking-wide">
+            <StyledSubHeading className="text-[#333] leading-9 font-medium  tracking-wide">
               An 18-year-old web developer and dedicated tech enthusiast hailing
               from the picturesque town of Birtamode, Nepal. As a passionate
               computer science student, I am currently engrossed in crafting and
@@ -37,13 +36,13 @@ export default function About() {
               productive and inspiring journey could be just a click away.
             </StyledSubHeading>
           </StyledContent>
-          <SushantImg className=" flex shrink">
+          <SushantImg className=" flex">
             <StyledImg src="/src/assets/sushant2.jpg" />
             <SushantPic />
           </SushantImg>
         </HomeWrapper>
       </div>
-    </HomePageWrapper>
+    </div>
   );
 }
 // there is problem with the file path because the svg format is working properly but png and the jpg are not working so well how the fuck can by that ??

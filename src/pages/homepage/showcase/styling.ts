@@ -15,7 +15,7 @@ font-size:64px;
 
 `
 export const StyledSubHeading = styled("h1")`
-font-size:36px;
+font-size:46px;
 @media (max-width: 768px) {
   font-size:24px;
 }
