@@ -1,23 +1,27 @@
 import { StyledShowCase, StyledHeading ,StyledSubHeading  } from "./styling";
-import { Typewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 export default function ShowCase() {
   return (
     <>
       <StyledShowCase className="flex justify-center items-center mb-[2rem]">
         <div>
-          <StyledHeading  className=" text-[#111] font-bold" >
+          <StyledHeading  className=" text-[#fff] font-bold" >
             Sushant Babu Prasai
           </StyledHeading>
-          <StyledSubHeading className="m-6  text-center font-bold text-[#111]">
+          <StyledSubHeading className="m-6  text-center font-bold text-[#fff]">
             I am {" "}
+            <span  className="text-[#f00]">
             <Typewriter 
-            words={["Student.","  Developer.","Tech Enthusiast.","UI/UX Designer."]}
+            words={["a Student ","Tech Enthusiast "," a Developer ","UI/UX Designer "]}
             loop
-            typeSpeed={120}
-            deleteSpeed={90}
-            delaySpeed={800}
+            cursor
+            cursorBlinking ={false}
+            cursorStyle=" | "
+            typeSpeed={18}
+            deleteSpeed={27}
+            delaySpeed={1800}
             />
-            <Cursor  />
+            </span>
           </StyledSubHeading>
           <br />
         </div>
