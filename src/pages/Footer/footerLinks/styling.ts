@@ -8,17 +8,18 @@ const mobileMediaQuery = `@media (max-width: ${mobileBreakpoint})`;
 const tabletMediaQuery = `@media (max-width: ${tabletBreakpoint})`;
 const desktopMediaQuery = `@media (max-width: ${desktopBreakpoint})`;
 
-
+export const Wrapper = styled('div')`
+`
 export const StyledFooter = styled('div')`
 background:#2f2e33;
 padding:3rem;
 ${desktopMediaQuery} {
   }
 ${tabletMediaQuery} {
-    flex-wrap :wrap;
+    // flex-wrap :wrap;
   }
 ${mobileMediaQuery} {
-    flex-wrap: no-wrap;
+    // flex-wrap: no-wrap;
   }
 
 `

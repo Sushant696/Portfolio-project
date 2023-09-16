@@ -1,4 +1,4 @@
-// import SushantPic from "../../assets/icons/sushant";
+import Sushant from "../../assets/Images/sushant.jpg";
 import {
   StyledImg,
   StyledContent,
@@ -37,7 +37,7 @@ export default function About() {
             </StyledSubHeading>
           </StyledContent>
           <SushantImg className=" flex">
-            <StyledImg src="/src/assets/sushant2.jpg" />
+            <StyledImg src={`${Sushant}`} />
           </SushantImg>
         </HomeWrapper>
       </div>
