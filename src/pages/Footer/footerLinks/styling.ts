@@ -1,23 +1,44 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+const mobileBreakpoint = "640px";
+const tabletBreakpoint = "1024px";
+const desktopBreakpoint = "1280px";
+
+const mobileMediaQuery = `@media (max-width: ${mobileBreakpoint})`;
+const tabletMediaQuery = `@media (max-width: ${tabletBreakpoint})`;
+const desktopMediaQuery = `@media (max-width: ${desktopBreakpoint})`;
+
 
 export const StyledFooter = styled('div')`
-display:flex;
-justify-content :space-between;
-background:#eee;
+background:#2f2e33;
 padding:3rem;
-flex-wrap:wrap;
+${desktopMediaQuery} {
+  }
+${tabletMediaQuery} {
+    flex-wrap :wrap;
+  }
+${mobileMediaQuery} {
+    flex-wrap: no-wrap;
+  }
+
 `
 export const StyledLinks = styled(Link)`
-display:block;
+display:flex;
 line-height:3rem;
 font-size:24px;
 cursor:pointer;
-
+color :#FFF;
 &:hover {
     color :#41b0bF;
     text-decoration :underline; 
 }
+
+${tabletMediaQuery} {
+    flex-wrap :wrap;
+  }
+${mobileMediaQuery} {
+    flex-wrap: wrap;
+  }
 `
 export const StyledTextArea = styled("textarea")`
 border:2px solid #737373 ;

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledShowCase = styled("div")`
   max-width: 100%;
-  background: #111;
-  height: 86vh;
+  background: #2f2e33;
+  height: 50vh;
   box-sizing: border-box;
   z-index:1;
 `;

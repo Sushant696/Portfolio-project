@@ -1,9 +1,13 @@
-export const LinkedInIcon = () => {
+interface MyProps {
+  height : number ,
+  width : number 
+}
+export const LinkedInIcon = ( { height, width }: MyProps  ) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="110"
-      height="110"
+    width= {width}
+      height= {height}
       viewBox="7.025 7.025 497.951 497.95"
       id="linkedin"
     >

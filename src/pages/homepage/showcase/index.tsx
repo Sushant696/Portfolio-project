@@ -10,7 +10,7 @@ export default function ShowCase() {
           </StyledHeading>
           <StyledSubHeading className="m-6  text-center font-bold text-[#fff]">
             I am {" "}
-            <span  className="text-[#f00]">
+            <span  className="text-[#ff8d3f]">
             <Typewriter 
             words={["a Student ","Tech Enthusiast "," a Developer ","UI/UX Designer "]}
             loop
