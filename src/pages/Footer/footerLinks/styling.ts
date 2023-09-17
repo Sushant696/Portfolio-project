@@ -9,6 +9,7 @@ const tabletMediaQuery = `@media (max-width: ${tabletBreakpoint})`;
 const desktopMediaQuery = `@media (max-width: ${desktopBreakpoint})`;
 
 export const Wrapper = styled('div')`
+
 `
 export const StyledFooter = styled('div')`
 background:#2f2e33;
@@ -52,21 +53,3 @@ width:250px;
 margin-bottom:1rem;
 `
 
-export const StyledInput = styled("input")`
-border:2px solid #737373 ;
-border-radius :4px;
-width:100%;
-padding:.5rem;
-`
-export const StyledButton = styled("button")`
-width:100%;
-padding:.5rem;
-margin-top:1rem;
-border:2px solid #737373;
-border-radius :8px;
-font-size:22px;
-&: hover {
-    background :#41b0bf;
-    transition :ease-in-out .6s;
-}
-` 

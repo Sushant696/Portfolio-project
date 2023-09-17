@@ -1,21 +1,19 @@
 import Navbar from "../pages/navbar"
-import ShowCase from "../pages/homepage/showcase"
-import Interest from "../pages/interest/index."
-import About from "../pages/about"
+// import Interest from "../pages/interest/index."
 import { Divider } from "antd"
-import Contact from "../pages/contact"
+// import Contact from "../pages/contact"
 import Footer from "../pages/Footer/footerLinks"
+import Homepage from "../pages/homepage"
 // import Quotes from "../pages/quotes"
 export default function Home() {
   return (
     <div className="m-2" >
       <Navbar />
-      <ShowCase/>
-      <About/>
+       <Homepage/>
       {/* <Quotes/> */}
       <Divider/>
-      <Interest/>
-      <Contact/>
+      {/* <Interest/> */}
+      {/* <Contact/> */}
       <Footer/>
     </div>
   )

@@ -20,3 +20,9 @@ font-size:46px;
   font-size:24px;
 }
 `
+export const HomeWrapper = styled('div')`
+max-width:1090px;
+display:flex;
+justify-content:flex-start;
+gap:30px;
+`
