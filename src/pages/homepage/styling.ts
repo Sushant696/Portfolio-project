@@ -37,8 +37,7 @@ export const StyledCard = styled("div")`
   color: #111;
   max-width: 180px;
   border-radius: 10px;
-  &:hover {
-    
+  &:hover { 
   }
 `;
 
