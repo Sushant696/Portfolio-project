@@ -33,6 +33,7 @@ export const StyledCard = styled("div")`
   padding: 0.5rem;
   flex-direction: column;
   align-items: center;
+  justify-content:space-between;
   color: #111;
   max-width: 180px;
   border-radius: 10px;

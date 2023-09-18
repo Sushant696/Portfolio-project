@@ -10,29 +10,29 @@ export default function Tech() {
       <h1 className="text-center text-[36px] text-[#000] font-semibold">
         My Profeciency
       </h1>
-      <div className="m-2 p-2  flex justify-center gap-[64px]">
+      <div className="m-2 p-2  flex justify-around gap-[]">
         <StyledCard>
-          <img alt="Html" className=" m-2 w-[60%]" src={`${Html}`} />
+          <img alt="Html" className=" m-2 w-[70%]" src={`${Html}`} />
           <h1 className="text-center">Html</h1>
           <h2>Progress bar </h2>
         </StyledCard>
         <StyledCard>
-          <img alt="Html" className="m-2 w-[60%]" src={`${css}`} />
+          <img alt="Html" className="m-2 w-[70%]" src={`${css}`} />
           <h1>Css</h1>
           <h2>Progress bar </h2>
         </StyledCard>
         <StyledCard>
-          <img alt="Html" className="m-2 w-[60%]" src={`${js}`} />
+          <img alt="Html" className="m-2 w-[70%]" src={`${js}`} />
           <h1>JavaScript</h1>
           <h2>Progress bar </h2>
         </StyledCard>
         <StyledCard>
-          <img alt="Html" className="m-2 bg-[#111] w-[60%]" src={`${github}`} />
+          <img alt="Html" className="m-2 bg-[#111] w-[70%]" src={`${github}`} />
           <h1>GitHub </h1>
           <h2>Progress bar </h2>
         </StyledCard>
         <StyledCard>
-          <img alt="Html" className="m-2 w-[60%]" src={`${react}`} />
+          <img alt="Html" className="m-2 w-[70%]" src={`${react}`} />
           <h1>React</h1>
           <h2>Progress bar </h2>
 
