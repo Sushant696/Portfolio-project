@@ -14,7 +14,7 @@ export default function About() {
       {/* <h1 className="text-center mb-12 font-bold text-[3.5rem]">About Me</h1> */}
       <div className="flex justify-center">
         <HomeWrapper className="max-w  flex ">
-          <StyledContent className="flex flex-col flex-none gap-[32px]">
+          <StyledContent className="flex flex-col  gap-[32px]">
             <StyledHeading className="font-bold mt-4">
               I am Sushant Babu Prasai
             </StyledHeading>

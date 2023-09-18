@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
        <Homepage/>
       {/* <Quotes/> */}
-      <Divider/>
+      {/* <Divider/> */}
       {/* <Interest/> */}
       {/* <Contact/> */}
       <Footer/>
