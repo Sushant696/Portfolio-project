@@ -6,7 +6,7 @@ import { FacebookOutlined, GithubOutlined, LinkedinOutlined,  TwitterOutlined } 
 export default function Footer() {
   return (
     <>
-      <Wrapper className="flex flex-col mx-1 p-[5rem] bg-[#2f2e33]">
+      <Wrapper className="flex flex-col mx-1 p-[5rem] bg-[#111] "> {/* bg-[#3b82f6]*/}
         <div className="">
           <StyledFooter>
             <div className="flex justify-around">

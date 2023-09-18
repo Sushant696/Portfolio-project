@@ -1,12 +1,17 @@
 import styled from "styled-components";
+import Bgimage from "../../assets/Images/image.jpg"
 
-export const StyledShowCase = styled("div")`
-  max-width: 100%;
-  background: #2f2e33;
-  height: 50vh;
-  box-sizing: border-box;
-  z-index: 1;
+
+export const Container = styled("div")`
+background: url(${Bgimage}) center/cover;
+z-index:10;
 `;
+export const StyledShowCase = styled("div")`
+max-width: 100%;
+height :75vh;
+box-sizing: border-box;
+`;
+
 export const StyledHeading = styled("h1")`
   font-size: 64px;
   @media (max-width: 768px) {
@@ -26,18 +31,22 @@ export const HomeWrapper = styled("div")`
   gap: 30px;
 `;
 export const Wrapper = styled("div")`
+background: rgb(0,51,81);
+background: linear-gradient(97deg, rgba(0,51,81,1) 0%, rgba(0,168,194,1) 100%);
 `;
 
 export const StyledCard = styled("div")`
   display: flex;
-  padding: 0.5rem;
+  background:#FFF;
   flex-direction: column;
   align-items: center;
   justify-content:space-between;
-  color: #111;
-  max-width: 180px;
+  padding:1rem;
+  max-width: 190px;
   border-radius: 10px;
-  &:hover { 
+  &:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 8px #ffee10;
   }
 `;
 
@@ -56,10 +65,6 @@ export const StyledCard = styled("div")`
 //   z-index: -1;
 // }
 
-// ul li a:hover::before {
-//   transform: scale(1.1);
-//   box-shadow: 0 0 15px #ffee10;
-// }
 
 // ul li a:hover {
 //   color: #ffee10;

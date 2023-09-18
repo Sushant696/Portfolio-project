@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledNav = styled("div")`
-background :#2f2e33;
+// background :#2f2e33;
 overfolw-y:;scroll;
 scroll-behaviour :smooth;
 `
