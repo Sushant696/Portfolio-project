@@ -1,13 +1,14 @@
-import About from "./about";
 import ShowCase from "./showcase";
 import Tech from "./tech";
 import Footer from "../../components/Footer/footerLinks";
+import CoffeeCode from "./coffee";
+import About from "./about";
 export default function Homepage() {
   return (
     <div>
         <ShowCase/>
         <About/>
-        {/* <Divider/> */}
+        <CoffeeCode/>
         <Tech/>
         <Footer/>
     </div>

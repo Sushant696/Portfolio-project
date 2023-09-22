@@ -33,7 +33,7 @@ font-size:24px;
 cursor:pointer;
 color :#FFF;
 &:hover {
-    color :#41b0bF;
+    color :#f6af3b;
     text-decoration :underline; 
 }
 
