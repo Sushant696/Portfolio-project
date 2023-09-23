@@ -32,8 +32,7 @@ export const HomeWrapper = styled("div")`
   gap: 50px;
 `;
 export const Wrapper = styled("div")`
-  // background: rgb(0,51,81);
-  // background: linear-gradient(97deg, rgba(0,51,81,1) 0%, rgba(0,168,194,1) 100%);
+  background: rgb(0, 51, 81,.95);
   padding: 2rem;
 `;
 
@@ -44,6 +43,7 @@ export const StyledCard = styled("div")`
   justify-content: space-between;
   padding: 1rem;
   max-width: 190px;
+  background:	#fff;
   border-radius: 10px;
   &:hover {
     transform: scale(1.07);

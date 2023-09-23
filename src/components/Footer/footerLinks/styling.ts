@@ -10,8 +10,8 @@ const desktopMediaQuery = `@media (max-width: ${desktopBreakpoint})`;
 
 export const Wrapper = styled('div')`
 // background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(23,23,110,0.9248949579831933) 59%);
-background: rgb(0,51,81);
-background: linear-gradient(97deg, rgba(0,51,81,1) 0%, rgba(0,168,194,1) 100%);
+background: rgb(0,51,81,.95);
+// background: linear-gradient(97deg, rgba(0,51,81,1) 0%, rgba(0,168,194,1) 100%);
 `
 export const StyledFooter = styled('div')`
 // background:#3b82f6;
