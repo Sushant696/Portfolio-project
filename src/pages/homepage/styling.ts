@@ -36,13 +36,13 @@ export const Wrapper = styled("div")`
 
 export const StyledCard = styled("div")`
   display: flex;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  // box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: .6rem;
   max-width: 200px;
-  background:	#19486F;
+  // background:	#19486F;
   border-radius:12px;
   &:hover {
     transform: scale(1.07);
