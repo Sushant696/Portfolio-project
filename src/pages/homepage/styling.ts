@@ -27,8 +27,6 @@ export const StyledSubHeading = styled("h1")`
 export const HomeWrapper = styled("div")`
   max-width: 1100px;
   display: flex;
-  // align-items:center;
-
   gap: 50px;
 `;
 export const Wrapper = styled("div")`
@@ -38,17 +36,20 @@ export const Wrapper = styled("div")`
 
 export const StyledCard = styled("div")`
   display: flex;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
-  max-width: 190px;
-  background:	#fff;
-  border-radius: 10px;
+  padding: .6rem;
+  max-width: 200px;
+  background:	#19486F;
+  border-radius:12px;
   &:hover {
     transform: scale(1.07);
+    transition :ease-in-out .33s;
     box-shadow: 0 0 10px #f6af3b;
   }
+
 `;
 
 // ul li a::before {
