@@ -31,13 +31,13 @@ export default function Interest() {
   return (
     <>
       <InterestContainer id="interest" >
-        <h1 className="text-4xl font-bold mb-5">Areas of my interest</h1>
+        <h1 className="text-4xl font-bold mb-4">Areas of my interest</h1>
         <InterestGrid>
           {interestArr.map((curr, index) => (
-            <StyledCard key={index} className=" p-[1.5rem]">
-              <h1 className="text-[32px] font-medium mb-4">{curr.title}</h1>
-              <StyledHr  className="mb-[1rem]"/>
-              <p className="text-[24px]">{curr.description}</p>
+            <StyledCard key={index}>
+              <h1 className="text-[25px] font-medium mb-2">{curr.title}</h1>
+              <StyledHr  className="mb-4"/>
+              <p className="text-[20px]">{curr.description}</p>
             </StyledCard>
           ))}
         </InterestGrid>

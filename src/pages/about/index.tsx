@@ -1,22 +1,24 @@
+import Sushant from "../../assets/Images/sushant.jpg";
 import {
-  HomePageWrapper,
   StyledImg,
   StyledContent,
   SushantImg,
   StyledHeading,
   HomeWrapper,
-  StyledSubHeading
+  StyledSubHeading,
 } from "./styling";
 
 export default function About() {
   return (
-    <HomePageWrapper className="p-[2rem]" id="about">
-      <h1 className="text-center mb-8 font-bold text-[3.5rem]">About Me</h1>
-      <div className="flex  justify-center">
-        <HomeWrapper className=" p-[1rem]">
-          <StyledContent className="flex flex-col flex-none gap-[32px]">
-            <StyledHeading className="  font-bold">I am Sushant Babu Prasai</StyledHeading>
-            <StyledSubHeading className="text-[#333]  leading-8 font-medium  tracking-wide">
+    <div id="about" className="p-4">
+      {/* <h1 className="text-center mb-12 font-bold text-[3.5rem]">About Me</h1> */}
+      <div className="flex justify-center">
+        <HomeWrapper className="max-w  flex ">
+          <StyledContent className="flex flex-col  gap-[32px]">
+            <StyledHeading className="font-bold mt-4">
+              I am Sushant Babu Prasai
+            </StyledHeading>
+            <StyledSubHeading className="text-[#333] leading-9 font-medium  tracking-wide">
               An 18-year-old web developer and dedicated tech enthusiast hailing
               from the picturesque town of Birtamode, Nepal. As a passionate
               computer science student, I am currently engrossed in crafting and
@@ -34,11 +36,13 @@ export default function About() {
               productive and inspiring journey could be just a click away.
             </StyledSubHeading>
           </StyledContent>
-          <SushantImg className=" flex shrink">
-            <StyledImg src="/src/assets/Images/sushant.jpg" alt="myimg" />
+          <SushantImg className=" flex">
+            <StyledImg src={`${Sushant}`} />
           </SushantImg>
         </HomeWrapper>
       </div>
-    </HomePageWrapper>
+    </div>
   );
 }
+// there is problem with the file path because the svg format is working properly but png and the jpg are not working so well how the fuck can by that ??
+// this is one thing but if the file path was mistake then how the image is loading in local host and not loading in actuall hosting with netlify.

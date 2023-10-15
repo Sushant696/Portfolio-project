@@ -1,8 +1,13 @@
-export default function FacebookIcon() {
+interface MyProps {
+  height : number ,
+  width : number ,
+}
+export default function FacebookIcon(props : MyProps) {
+  const {height , width } = props
   return (
     <svg
-      width="110"
-      height="110"
+      width={width}
+      height={height}
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
