@@ -2,7 +2,6 @@ import Navbar from "../../components/navbar";
 import { StyledShowCase,StyledHeading, Container ,StyledSubHeading } from "./styling";
 import { Typewriter } from "react-simple-typewriter";
 
-
 export default function ShowCase() {
   return (
     <Container>
@@ -40,4 +39,4 @@ export default function ShowCase() {
       </StyledShowCase>
     </Container>
   );
-}
+} 
