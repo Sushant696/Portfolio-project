@@ -2,7 +2,7 @@ import Footer from "../../components/Footer/footerLinks";
 import ShowCase from "../homepage/showcase";
 import Interest from "./index.";
 
-export default function Layout() {
+export default function Interestlayout() {
   return (
     <div>
       <ShowCase/>

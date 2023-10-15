@@ -10,16 +10,19 @@ export default function ShowCase() {
       <StyledShowCase className="flex justify-start items-center ">
         <div>
           <StyledHeading className="m-8 text-[#fff] font-bold">
-            Sushant Babu Prasai
+            Hi🙌
+          </StyledHeading>
+          <StyledHeading className="m-8 text-[#fff] font-bold">
+          I am Sushant Babu Prasai
           </StyledHeading>
           <StyledSubHeading className="m-8  font-bold text-[#fff]">
-            I am{" "}
+            A {" "}
             <span className="text-[#f6af3b]">
               <Typewriter
                 words={[
-                  "a Student .",
+                  " Student .",
                   "Tech Enthusiast . ",
-                  " a Developer .",
+                  " Developer .",
                   "UI/UX Designer .",
                 ]}
                 loop
