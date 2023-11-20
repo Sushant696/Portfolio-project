@@ -4,6 +4,7 @@ import Homepage from "../pages/homepage";
 import Aboutlayout from "../pages/about/layout";
 import ContactLayout from "../pages/contact/layout";
 import Interestlayout from "../pages/interest/layout";
+import Particle from "../components/particles/particles";
 export default function Routing() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Routing() {
         <Route path="/contact" element={<ContactLayout />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
+      <Particle/>
     </>
   );
 }
