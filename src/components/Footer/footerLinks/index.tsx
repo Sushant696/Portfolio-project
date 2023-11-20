@@ -6,7 +6,7 @@ import { FacebookOutlined, GithubOutlined, LinkedinOutlined,  TwitterOutlined } 
 export default function Footer() {
   return (
     <>
-      <Wrapper className="flex flex-col mx-1 p-[5rem] bg-[#111] "> {/* bg-[#3b82f6]*/}
+      <Wrapper className="flex flex-col mx-1 p-[5rem]"> {/* bg-[#3b82f6]*/}
         <div className="">
           <StyledFooter>
             <div className="flex justify-around">
@@ -16,7 +16,6 @@ export default function Footer() {
                 </a>
               </div>
               <div>
-                {/* <h1 className="font-bold text-[#fff]">Quick Links</h1> */}
                 <StyledLinks to="/">Home</StyledLinks>
                 <StyledLinks to="#about">About</StyledLinks>
                 <StyledLinks to="">Skills</StyledLinks>
