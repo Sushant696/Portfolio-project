@@ -1,10 +1,9 @@
-import React from "react";
-import Particles from "react-tsparticles";
+import Particles, { Main } from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 export default function Particle() {
-  const particlesInit = async (main) => {
-    console.log(main);
+  const particlesInit = async (main: Main) => {
+    console.log('hello', main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -242,7 +241,7 @@ export default function Particle() {
       "grab": {
         "distance": 100,
         "links": {
-          "blink": true,
+          "blink": false,
           "consent": true,
           "opacity": 1
         }
@@ -250,7 +249,7 @@ export default function Particle() {
       "push": {
         "default": true,
         "groups": [],
-        "quantity": 6
+        "quantity": 4
       },
       "remove": {
         "quantity": 2
@@ -259,7 +258,7 @@ export default function Particle() {
         "distance": 200,
         "duration": 0.4,
         "factor": 100,
-        "speed": 4,
+        "speed": 1,
         "maxSpeed": 50,
         "easing": "ease-out-quad",
         "divs": {
@@ -476,9 +475,9 @@ export default function Particle() {
     "shadow": {
       "blur": 0,
       "color": {
-        "value": "#fff"
+        "value": "#000"
       },
-      "enable": true,
+      "enable": false,
       "offset": {
         "x": 0,
         "y": 0
@@ -550,7 +549,7 @@ export default function Particle() {
     "zIndex": {
       "random": {
         "enable": false,
-        "minimumValue": 1
+        "minimumValue": 0
       },
       "value": 0,
       "opacityRate": 1,
@@ -559,7 +558,7 @@ export default function Particle() {
     },
     "destroy": {
       "bounds": {},
-      "mode": "push",
+      "mode": "none",
       "split": {
         "count": 1,
         "factor": {
