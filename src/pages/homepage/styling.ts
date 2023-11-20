@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Bgimage from "../../assets/Images/image.jpg";
 
 export const Container = styled("div")`
-  background: url(${Bgimage}) center/cover;
+  // background: url(${Bgimage}) center/cover;
   margin: 0.4rem;
   z-index: 10;
 `;
