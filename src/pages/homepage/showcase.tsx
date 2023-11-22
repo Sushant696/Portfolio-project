@@ -1,12 +1,17 @@
+// import FacebookIcon from "../../assets/icons/FacebookIcon";
+// import { LinkedInIcon } from "../../assets/icons/LinkedIn";
+// import TwitterIcon from "../../assets/icons/Twitter";
 import Navbar from "../../components/navbar";
+import Particle from "../../components/particles/particles";
+import CoffeeCode from "./coffee";
 import { StyledShowCase,StyledHeading, Container ,StyledSubHeading } from "./styling";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function ShowCase() {
   return (
-    <Container>
+    <Container className="">
       <Navbar/>
-      <StyledShowCase className="flex justify-start items-center ">
+      <StyledShowCase className="flex justify-center  items-center w-full">
         <div>
           <StyledHeading className="m-8 text-[#fff] font-bold">
             Hi🙌
@@ -34,9 +39,18 @@ export default function ShowCase() {
               />
             </span>
           </StyledSubHeading>
+          {/* <div className=" flex gap-[1rem] ml-8">
+          <FacebookIcon height={30} width={30}/>
+          <TwitterIcon height={30} width={30} color={'#fff'}/>
+          <LinkedInIcon height={30} width={30} />
+          </div> */}
           <br />
+          <div className="items-center">
+        <CoffeeCode/>
+          </div>
         </div>
       </StyledShowCase>
+      <Particle/>
     </Container>
   );
 } 

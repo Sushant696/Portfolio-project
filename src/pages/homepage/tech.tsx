@@ -9,7 +9,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 export default function Tech() {
   return (
-    <Wrapper className=" mx-1">
+    <Wrapper className=" mx-1 ">
       <h1 className="text-center text-[#fff]  text-[36px] py-12  font-semibold">
         My Profeciencies
       </h1>

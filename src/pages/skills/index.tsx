@@ -1,7 +1,13 @@
+import Footer from "../../components/Footer/footerLinks"
+import ShowCase from "../homepage/showcase"
+import Tech from "../homepage/tech"
+
 const Skills = () => {
   return (
     <div>
-        My Proficiency  
+      <ShowCase/>
+        <Tech/>
+        <Footer/>
     </div>
   )
 }

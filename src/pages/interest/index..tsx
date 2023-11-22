@@ -31,7 +31,7 @@ export default function Interest() {
   return (
     <>
       <InterestContainer id="interest" >
-        <h1 className="text-4xl font-bold mb-4">Areas of my interest</h1>
+        <h1 className="text-4xl text-[#fff] font-bold mb-4">Areas of my interest</h1>
         <InterestGrid>
           {interestArr.map((curr, index) => (
             <StyledCard key={index}>

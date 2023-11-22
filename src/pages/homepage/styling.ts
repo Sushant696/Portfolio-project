@@ -4,7 +4,7 @@ import Bgimage from "../../assets/Images/image.jpg";
 export const Container = styled("div")`
   // background: url(${Bgimage}) center/cover;
   margin: 0.4rem;
-  z-index: 10;
+  z-index: 1;
 `;
 export const StyledShowCase = styled("div")`
   max-width: 100%;
@@ -30,7 +30,6 @@ export const HomeWrapper = styled("div")`
   gap: 50px;
 `;
 export const Wrapper = styled("div")`
-  background: rgb(0, 51, 81,.95);
   padding: 2rem;
 `;
 

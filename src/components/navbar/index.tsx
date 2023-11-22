@@ -17,12 +17,12 @@ export default function Navbar() {
         <Link to="/interest">
           <h2 className="text-[#fff] text-[22px] font-semibold">Interests</h2>
         </Link>
-        <Link to="/contact">
+        <Link to="/skills">
           <h2 className="text-[#fff] text-[22px] font-semibold">Skills</h2>
         </Link>
-        <Link to="/passion">
+        {/* <Link to="/passion">
           <h2 className="text-[#fff] font-semibold text-[22px]">Passion</h2>
-        </Link>
+        </Link> */}
         <Link to="/contact">
           <h2 className="text-[#fff] text-[22px] font-semibold">Contact</h2>
         </Link>
