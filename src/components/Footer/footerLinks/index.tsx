@@ -53,7 +53,7 @@ export default function Footer() {
                      fontSize: "40px",
                    }}/>
             </div>
-            <h1>&copy; Copyright | 2023 | All right reserved</h1>
+            <h1>&copy; Copyright | 2024 | All right reserved</h1>
           </div>
         </div>
       </Wrapper>
